@@ -16,7 +16,7 @@ btnTambah.addEventListener("click", function() {
     teksAngka.style.color = "green"; // warna teks hijau jika ditambah
 
     // Memunculkan pop-up pesan ketika mencapai kelipatan 10
-    if (angka % 10 === 0) {
+    if (angka % 10 === 0 && angka !== 0) {
         alert("Selamat, Anda mencapai " + angka + "!");
     }
 });
